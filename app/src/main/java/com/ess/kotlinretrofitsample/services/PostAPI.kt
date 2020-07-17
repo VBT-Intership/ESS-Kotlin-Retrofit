@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface PostAPI {
 
-    @GET("photos")
+    @GET("photos?albumId=1")
     fun getPosts() : Call<List<PostModel>>
 }
