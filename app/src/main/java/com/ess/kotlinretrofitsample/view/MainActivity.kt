@@ -57,10 +57,6 @@ class MainActivity : AppCompatActivity() {
                             postRecyclerViewAdapter = PostRecyclerViewAdapter(it)
                             recyclerView.adapter = postRecyclerViewAdapter
                         }
-
-                        for (postModel : PostModel in postModels!!){
-                            println(postModel.title)
-                        }
                     }
                 }
             }
